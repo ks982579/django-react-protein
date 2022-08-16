@@ -1,0 +1,22 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.protein-form {
+    padding: 0.25rem;
+    input[type=number]{
+        padding: 0.25rem;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        padding: 0.5rem 0;
+        justify-content: space-around;
+        align-items: center;
+
+        input {
+            min-width: 3.5rem;
+        }
+    }
+}

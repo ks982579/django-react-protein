@@ -1,0 +1,41 @@
+.navbar-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    border: black solid 2px;
+    background-color: azure;
+    min-height: 4rem;
+
+    .company-name {
+        padding: 0.5rem;
+        div {
+            font-size: 1.25rem;
+            font-weight: 700;
+            transition: font-size 0.5s;
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            &:hover {
+                font-size: 1.5rem;
+                cursor: pointer;
+            }
+        }
+    }
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        div {
+            font-size: 1rem;
+            transition: font-size 0.5s;
+
+            &:hover {
+                font-size: 1.25rem;
+                cursor: pointer;
+            }
+        }
+    }
+}

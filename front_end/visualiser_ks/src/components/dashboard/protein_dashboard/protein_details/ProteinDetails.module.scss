@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    min-width: 75%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    vertical-align: middle;
+
+
+    .grid-item {
+        padding: 0.25rem;
+        margin: 0.25rem;
+        border-bottom: dotted black 1px;
+
+        &:nth-child(even) {
+            text-align: center;
+        }
+    }
+}
